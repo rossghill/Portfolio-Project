@@ -1,0 +1,40 @@
+.header {
+    height: 95vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-main-one, 0.8), 
+        rgba($color-main-two, 0.8)), 
+        url(../img/desk.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    margin-bottom: 4rem;
+}
+
+.heading-primary {
+    color: #FFF;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+
+.heading-primary-main {
+    display: block;
+    font-size: $header-size;
+    font-weight: 400;
+    letter-spacing: 3.5rem;
+
+    animation-name: moveInLeft;
+    animation-duration: 1.5s; 
+    backface-visibility: hidden;
+}
+
+.heading-primary-sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 2rem;
+
+     animation-name: moveInRight;
+     animation-duration: 1.5s; 
+}

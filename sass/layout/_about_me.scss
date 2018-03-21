@@ -1,0 +1,27 @@
+.about-me {
+    font-size: $header-size;
+    margin-bottom: 6rem;
+    text-align: center;
+
+    p {
+      font-size: 2rem;   
+    }
+
+    a,
+    a:visited {
+        text-decoration: none;
+        color: $color-grey;
+    }
+
+    a:hover {
+        color: $color-main-two;
+    }
+}
+
+.section-heading {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    letter-spacing: 1rem;
+}

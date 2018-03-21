@@ -1,0 +1,34 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
+@import "pages/home";
+@import "components/button";
+@import "layout/header";
+@import "layout/about_me";
+@import "layout/projects";
+@import "layout/icons";
+
+.logo-box {
+    position: absolute;
+    top: 140rem;
+    left: 4rem;
+
+}
+
+.logo {
+    height: 3.5rem;
+}
+
+
+.text-box {
+    position: absolute;  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
