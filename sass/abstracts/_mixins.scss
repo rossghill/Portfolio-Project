@@ -5,3 +5,11 @@
         clear: both;
     }
 }
+
+@mixin heading-format {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    letter-spacing: 1rem;
+}
