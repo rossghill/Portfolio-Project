@@ -72,6 +72,15 @@
 .project-title {
     text-transform: uppercase;
     letter-spacing: 0.5rem;
+    text-decoration: none;
+
+    &:hover {
+        color: $color-main-two;
+    }
+
+    &:visited {
+        color: $color-grey;
+    }
 }
 
 .description {
