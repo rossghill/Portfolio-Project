@@ -15,7 +15,14 @@
 
     .project-img {
         width: 100%;
-        }          
+        }
+        
+    a {
+        &:hover {
+            text-decoration: none;
+            color: $color-main-two;
+        }
+    }    
 }
 
 #middle-project {
