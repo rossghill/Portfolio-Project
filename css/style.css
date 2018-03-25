@@ -73,14 +73,20 @@ body {
   animation-name: moveInRight;
   animation-duration: 1.5s; }
 
+.text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; }
+
 .about-me {
   font-size: 6rem;
   margin-bottom: 6rem;
   text-align: center; }
   .about-me p {
     font-size: 2rem; }
-  .about-me a,
-  .about-me a:visited {
+  .about-me a, .about-me:visited {
     text-decoration: none;
     color: #777; }
   .about-me a:hover {
@@ -105,6 +111,11 @@ body {
     width: 66%; }
   .row-flex .project-img {
     width: 100%; }
+  .row-flex a, .row-flex:visited {
+    text-decoration: none;
+    color: #777; }
+  .row-flex a:hover {
+    color: #20b858; }
 
 #middle-project .col-1-of-3 {
   margin-right: 0;
@@ -133,7 +144,12 @@ body {
 
 .project-title {
   text-transform: uppercase;
-  letter-spacing: 0.5rem; }
+  letter-spacing: 0.5rem;
+  text-decoration: none; }
+  .project-title:hover {
+    color: #20b858; }
+  .project-title:visited {
+    color: #777; }
 
 .description {
   margin-top: 2rem; }
@@ -153,21 +169,6 @@ body {
   text-decoration: none;
   padding: 0.7rem;
   color: #777; }
-
-.icon:hover {
-  color: #20b858; }
-
-.logo-box {
-  position: absolute;
-  top: 140rem;
-  left: 4rem; }
-
-.logo {
-  height: 3.5rem; }
-
-.text-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center; }
+  .icon:hover,
+  .icon:visited:hover {
+    color: #20b858; }
