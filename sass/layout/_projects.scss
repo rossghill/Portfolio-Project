@@ -17,12 +17,15 @@
         width: 100%;
         }
         
-    a {
-        &:hover {
-            text-decoration: none;
-            color: $color-main-two;
-        }
-    }    
+    a,
+        &:visited {
+        text-decoration: none;
+        color: $color-grey;
+    }
+
+    a:hover {
+        color: $color-main-two;
+    }   
 }
 
 #middle-project {
